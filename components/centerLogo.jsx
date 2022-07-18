@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
+import CubeComp from './Cube.jsx';
 import logo from '../img/KubicEstatico.png';
 
 const CenterLogo = () => {
     return (
         <div className='flex flex-row justify-center'>
                 <div className='text-center '>
+                    {/* <CubeComp/> */}
                     <Image src={logo} alt='' />
                     <div className='text-4xl flex flex.row'>
                         <div className='tracking-[.70em] hover:animate-bounce'>K</div>
