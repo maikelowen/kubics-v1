@@ -2,13 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Dependencies:
 yarn add --dev axios
+```bash
 yarn add --dev dotenv
 yarn add --dev react-intl 
 yarn add --dev @react-icons/all-files --save
 yarn add --dev react-3d-cube
-
-
-
+```
 
 ## Getting Started
 
