@@ -10,10 +10,10 @@ const CenterLogo = () => {
                     <div>
                 
                     <div className='md:hidden'>
-                        <Image  src={logo} width={200} height={175} alt="logo" / >
+                        <Image  src={logo} width={124} height={110} alt="logo" / >
                     </div>
                     <div className='hidden md:block'>
-                        <Image  src={logo} width={200} height={175} alt="logo" / >
+                        <Image  src={logo} width={166} height={149} alt="logo" / >
                     </div>
 
                     </div>

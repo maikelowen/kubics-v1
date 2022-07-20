@@ -12,11 +12,11 @@ export default function Home() {
 
   return (
     <div className='flex justify-center min-h-screen bg-gradient-to-r from-[#cbd5e1] via-[#f8fafc] to-[#cbd5e1]'>
-      <div className="w-11/12 max-w-screen-2xl ">
-        <header className="flex justify-end  ">
+      <div className="w-11/12 max-w-screen-3xl min-h-screen grid content-between">
+        <header className="flex justify-end">
           <ToggleSwitch />
         </header>
-        <main className=" ">
+        <main className="">
           {/* Switch to  change language */}
           <h3 className="text-2xl text-center">
             <FormattedMessage
@@ -25,11 +25,11 @@ export default function Home() {
             />
           </h3>
           {/* Kubics Logo */}
-          <div className=" mt-20 mb-2">
+          <div className=" mt-16 mb-2">
             <CenterLogo />
           </div>
           {/* Sentences */}
-          <div className="hidden md:flex   justify-center  mb-24">
+          <div className="hidden md:flex justify-center">
             <div className="  text-center pb-5 pt-2 border-t  border-[#7094b1] ">
               <FormattedMessage
                 id='app.text1'
@@ -46,14 +46,14 @@ export default function Home() {
               />
             </div>
           </div>
+          
+        </main>
+
+        <footer className="flex flex-col justify-center">
           {/* Newsletter */}
           <div className="flex justify-center mb-3">
             <Newsletter />
           </div>
-        </main>
-
-        <footer className="flex justify-center items-stretch ">
-
           <div className=" flex text-center self-center">
             <FormattedMessage
               id='app.text2'
