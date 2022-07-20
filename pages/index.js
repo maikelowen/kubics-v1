@@ -6,7 +6,7 @@ import Newsletter from "../components/Newsletter"
 import ToggleSwitch from "../components/toggleSwitch"
 import CenterLogo from "../components/centerLogo"
 import SocialNetworks from "../components/SocialNetworks"
-
+import CookieConsent from "react-cookie-consent"
 
 export default function Home() {
   
@@ -66,12 +66,28 @@ export default function Home() {
           </div>
         </main>
 
-        <footer className="">
-          <div className=" flex justify-center mb-5">
-            <SocialNetworks />
-          </div>
-        </footer>
-      </div>
-    </div>
-  )
+                <footer className="">
+                    <div className=" flex justify-center mb-5">
+                        <SocialNetworks />
+                    </div>
+                    <CookieConsent
+                        location="bottom"
+                        buttonText="Accept"
+                        declineButtonText="Reject"
+                        enableDeclineButton
+                        onDecline={() => {
+                            alert("Not accepted!")
+                        }}
+                        cookieName="myAwesomeCookieName2"
+                        style={{ background: "#2B373B" }}
+                        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+                        declineButtonStyle={{ color: "#4e503b", background: "#918f8e" }}
+                        expires={150}
+                    >
+                        This website uses cookies to enhance the user experience.
+                    </CookieConsent>
+                </footer>
+            </div>
+        </div>
+    )
 }
