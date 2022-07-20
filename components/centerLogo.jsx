@@ -13,12 +13,12 @@ const CenterLogo = () => {
                         <Image  src={logo} width={200} height={175} alt="logo" / >
                     </div>
                     <div className='hidden md:block'>
-                        <Image  src={logo} width={215} height={187} alt="logo" / >
+                        <Image  src={logo} width={200} height={175} alt="logo" / >
                     </div>
 
                     </div>
 
-                    <div className='text-3xl mt-2 md:text-5xl flex flex-row justify-center may'>
+                    <div className='text-3xl mt-2 md:text-4xl flex flex-row justify-center may'>
                         <div className='tracking-[.70em] hover:animate-bounce'>K</div>
                         <div className='tracking-[.70em] hover:animate-bounce'>U</div>
                         <div className='tracking-[.70em] hover:animate-bounce'>B</div>

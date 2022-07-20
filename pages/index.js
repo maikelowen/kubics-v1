@@ -29,8 +29,8 @@ export default function Home() {
             <CenterLogo />
           </div>
           {/* Sentences */}
-          <div className="hidden md:flex   justify-center  mb-28">
-            <div className=" w-5/12 text-center pb-5 pt-2 border-t  border-[#7094b1] ">
+          <div className="hidden md:flex   justify-center  mb-24">
+            <div className="  text-center pb-5 pt-2 border-t  border-[#7094b1] ">
               <FormattedMessage
                 id='app.text1'
                 defaultMessage='the NFT Project that will change the course of Filmmaking History'
