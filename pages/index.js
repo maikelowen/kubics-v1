@@ -17,7 +17,7 @@ export default function Home() {
           <ToggleSwitch />
         </header>
         <main className=" ">
-          {/* Switch to change language */}
+          {/* Switch to  change language */}
           <h3 className="text-4xl text-center">
             <FormattedMessage
               id='app.slogan'
