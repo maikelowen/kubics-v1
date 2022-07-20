@@ -21,7 +21,7 @@ export default () => {
     }
 
     return (
-        <div className="flex flex-col items-center w-full p-8">
+        <div className="flex flex-col items-center w-full">
 
             <p className="text-xl text-center">
                 <FormattedMessage
