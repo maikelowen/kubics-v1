@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React, { Component } from 'react'
-import ReactPlayer from 'react-player'
 import logo from '../img/KubicsLoopLow.gif'
 
 const CenterLogo = () => {
@@ -14,7 +13,7 @@ const CenterLogo = () => {
                         <Image  src={logo} width={200} height={175} alt="logo" / >
                     </div>
                     <div className='hidden md:block'>
-                        <Image  src={logo} width={250} height={217} alt="logo" / >
+                        <Image  src={logo} width={245} height={213} alt="logo" / >
                     </div>
 
                     </div>

@@ -29,7 +29,7 @@ export default () => {
                     defaultMessage='JOIN OUR WHITELIST'
                 />
             </p>
-            <div className="flex w-2/2 lg:w-3/12 justify-center mt-5 flex-col lg:flex-row">
+            <div className="flex w-2/2 lg:w-3/12 justify-center mt-2 flex-col lg:flex-row">
                 <input
                     className="appearance-none mb-2 lg:mb-0 w-full lg:w-2/3 border border-[#7098b7] rounded py-1 px-4 text-gray-700 leading-tight focus:outline-none focus:border-gray-600 "
                     type="text"
