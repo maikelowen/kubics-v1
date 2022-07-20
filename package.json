@@ -9,19 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-icons/all-files": "^4.1.0",
     "axios": "^0.27.2",
     "next": "12.2.2",
+    "next-videos": "1.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-intl": "^6.0.5"
+    "react-icons": "^4.4.0",
+    "react-intl": "^6.0.5",
+    "video-react": "^0.15.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "dotenv": "^16.0.1",
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2",
     "postcss": "^8.4.14",
+    "react-player": "^2.10.1",
     "tailwindcss": "^3.1.6"
   }
 }

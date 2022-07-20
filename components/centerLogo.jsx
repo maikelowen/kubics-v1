@@ -1,13 +1,25 @@
 import Image from 'next/image';
-import React from 'react';
-import logo from '../img/KubicEstatico.png';
+import React, { Component } from 'react'
+import ReactPlayer from 'react-player'
+import logo from '../img/KubicsLoopLow.gif'
 
 const CenterLogo = () => {
-    return (
-        <div className='flex flex-row justify-center'>
-                <div className='text-center '>
-                    <Image src={logo} alt='' />
-                    <div className='text-4xl flex flex.row'>
+
+        return (
+            <div className='flex flex-row justify-center'>
+                <div className='text-center flex flex-col justify-center'>
+                    <div>
+                
+                    <div className='md:hidden'>
+                        <Image  src={logo} width={200} height={175} alt="logo" / >
+                    </div>
+                    <div className='hidden md:block'>
+                        <Image  src={logo} width={250} height={220} alt="logo" / >
+                    </div>
+
+                    </div>
+
+                    <div className='text-3xl mt-2 md:text-5xl flex flex-row justify-center may'>
                         <div className='tracking-[.70em] hover:animate-bounce'>K</div>
                         <div className='tracking-[.70em] hover:animate-bounce'>U</div>
                         <div className='tracking-[.70em] hover:animate-bounce'>B</div>
@@ -17,7 +29,7 @@ const CenterLogo = () => {
                     </div>
                 </div>
             </div>
-    );
+        );
 }
 
 export default CenterLogo;
