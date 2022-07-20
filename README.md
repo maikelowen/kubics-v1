@@ -1,12 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Dependencies:
+```bash
 yarn add --dev axios
 yarn add --dev dotenv
-npm i react-intl 
-npm install @react-icons/all-files --save
-
-
+yarn add --dev react-intl 
+yarn add --dev @react-icons/all-files --save
+yarn add --dev react-3d-cube
+```
 
 ## Getting Started
 

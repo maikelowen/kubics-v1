@@ -28,13 +28,13 @@ const ToggleSwitch = () => {
     return (
         <div className='flex flex-row p-3 items-center'>
             <div>EN</div>
-            <label class="switch ml-1 mr-1">
+            <label className="switch ml-1 mr-1">
                 <input
                     type="checkbox"
                     checked={isChecked}
                     onChange={handleOnChange} />
-                <span class="slider"></span>
-                <span class="barra"></span>
+                <span className="slider"></span>
+                <span className="barra"></span>
             </label>
             <div>SP</div>
         </div>
