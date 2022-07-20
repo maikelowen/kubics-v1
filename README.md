@@ -6,7 +6,6 @@ yarn add --dev axios
 yarn add --dev dotenv
 yarn add --dev react-intl 
 yarn add --dev @react-icons/all-files --save
-yarn add --dev react-3d-cube
 yarn add --dev react-cookie-consent
 ```
 
