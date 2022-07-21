@@ -51,7 +51,7 @@ export default () => {
                 </button>
             </div>
             <div className="text-center flex justify-center">
-                {state === "ERROR" && <p className="w-1/2 mt-2 text-red-600">{errorMessage}</p>}
+                {state === "ERROR" && <p className=" mt-2 text-red-600">{errorMessage}</p>}
                 {state === "SUCCESS" && <p className="w-1/2 mt-2 text-green-600">Success!</p>}
             </div>
         </div>

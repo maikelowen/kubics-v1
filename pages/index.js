@@ -19,21 +19,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-11/12 max-w-screen-3xl min-h-screen grid content-between">
+        
         <header className="flex justify-end">
+          {/* Switch to  change language */}
           <ToggleSwitch />
         </header>
         <main className="">
-          {/* Switch to  change language */}
+
+
           <h3 className="text-2xl text-center">
             <FormattedMessage
               id='app.slogan'
               defaultMessage='The world will never be round again'
             />
           </h3>
+
           {/* Kubics Logo */}
-          <div className=" mt-16 mb-2">
+          <div className="mt-10 md:mt-16 mb-2">
             <CenterLogo />
           </div>
+
           {/* Sentences */}
           <div className="hidden md:flex justify-center">
             <div className="  text-center pb-5 pt-2 border-t  border-[#7094b1] ">
@@ -43,9 +48,10 @@ export default function Home() {
               />
             </div>
           </div>
+
           {/* For Mobile */}
           <div className="text-center md:hidden">
-            <div className="mb-10 p-1  border-t  border-[#7094b1] ">
+            <div className="mb-5 p-1  border-t  border-[#7094b1] ">
               <FormattedMessage
                 id='app.text1'
                 defaultMessage='the NFT Project that will change the course of Filmmaking History'
