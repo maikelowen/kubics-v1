@@ -9,7 +9,6 @@ const CenterLogo = () => {
             <div className='flex flex-row justify-center'>
                 <div className='text-center flex flex-col justify-center'>
                     <div>
-                
                     <div className='md:hidden'>
                         <Image  src={logo} width={124} height={110} alt="logo" / >
                     </div>
