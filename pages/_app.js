@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import '../styles/tggleSwitch.css'
 import { LangProvider } from '../context/langContext';
-// import { IntlProvider, FormattedMessage } from 'react-intl';
 import MensajesSp from '../lang/sp.json';
 import MensajesEn from '../lang/en.json';
 //  importamos contexto
