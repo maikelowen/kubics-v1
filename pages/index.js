@@ -25,7 +25,6 @@ export default function Home() {
         </header>
         <main className="">
 
-
           <h3 className="text-2xl text-center">
             <FormattedMessage
               id='app.slogan'
