@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { Component } from 'react'
-import logo from '../public/kubicsLoopLow.gif'
+import logo from '../public/kubicsLoopLow60.webp'
 
 
 const CenterLogo = () => {
