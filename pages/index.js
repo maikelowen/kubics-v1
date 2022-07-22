@@ -19,7 +19,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> 
       <div className="w-11/12 max-w-screen-3xl min-h-screen grid content-between">
-        
         <header className="flex justify-end">
           {/* Switch to  change language */}
           <ToggleSwitch />
