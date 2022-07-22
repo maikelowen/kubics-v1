@@ -3,7 +3,7 @@ import axios from "axios"
 import { FormattedMessage } from "react-intl"
 
 
-export default () => {
+export default function Newsletters()  {
     const [email, setEmail] = useState("")
     const [state, setState] = useState("IDLE")
     const [errorMessage, setErrorMessage] = useState(null)
