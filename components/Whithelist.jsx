@@ -8,7 +8,7 @@ export default function Whitelist() {
   const [isWhitelisted, setIsWhitelisted] = useState(false);
   const [signer, setSigner] = useState(undefined);
 
-  const contractAddress = "0x1AAFe67CeD171278E348cC1708a1CbE942bd2d25";
+  const contractAddress = "0x4BA92F86D368f3B1d446579598d68603c6a04E31";
 
   useEffect(() => {
     if (typeof window.ethereum !== "undefined") {
@@ -52,9 +52,11 @@ export default function Whitelist() {
     <div>
       {hasMetamask ? (
         isConnected ? (
-          "Connected! "
+          <div>Connected! Make sure you are on the ETH Chain</div>
         ) : (
-          <button onClick={() => connect()} className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Connect with your Metamask to join the Whitelist!</button>
+          <div>          
+            <button onClick={() => connect()} className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Connect with your Metamask to join the Whitelist!</button>
+          </div>
         )
       ) : (
         "Please install metamask"
