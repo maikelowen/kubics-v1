@@ -9,6 +9,8 @@ yarn add --dev dotenv
 yarn add --dev react-intl 
 yarn add --dev @react-icons/all-files --save
 yarn add --dev react-cookie-consent
+yarn add --dev ethers
+yarn add --dev web3modal
 ```
 
 ## Getting Started
