@@ -51,9 +51,7 @@ export default function Whitelist() {
   return (
     <div>
       {hasMetamask ? (
-        isConnected ? (
-          <div>Connected! Make sure you are on the ETH Chain</div>
-        ) : (
+        isConnected ? ( "" ) : (
           <div>          
             <button onClick={() => connect()} className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Connect with your Metamask to join the Whitelist!</button>
           </div>
@@ -66,7 +64,10 @@ export default function Whitelist() {
                 isWhitelisted ? (
                 "Already whitelisted! "
                 ) : (
+                  <div>    
+                    <div>Connected! Make sure you are on the ETH Chain</div>                
                     <button onClick={() => addToWhitelist()} className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Join the whitelist</button>
+                  </div>
                 )
             ) : (
                 ""
