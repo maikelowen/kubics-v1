@@ -7,7 +7,7 @@ import ToggleSwitch from "../components/toggleSwitch"
 import CenterLogo from "../components/centerLogo"
 import SocialNetworks from "../components/SocialNetworks"
 import CookieConsent from "react-cookie-consent"
-import WalletConnect from "../components/WalletConnect"
+import Whitelist from "../components/Whithelist"
 
 export default function Home() {
     return (
@@ -57,10 +57,11 @@ export default function Home() {
                 </main>
 
                 <footer className="flex flex-col justify-center">
-                    {/* Newsletter */}
+                    {/* WalletConnect */}
                     <div className="flex justify-center mb-3">
-                        <WalletConnect />
+                        <Whitelist />
                     </div>
+                    {/* Newsletter */}
                     <div className="flex justify-center mb-3">
                         <Newsletter />
                     </div>
