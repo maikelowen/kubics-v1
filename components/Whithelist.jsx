@@ -39,9 +39,16 @@ export default function Whitelist() {
         await result.wait(1);
         alert("Great! You have joined the whitelist!");
         setIsWhitelisted(true)
-      } catch (error) {
-        console.log(error);
-        alert("Address already whitelist!");
+      } catch (e) {
+        console.log(e);
+        if(e.error.message == "execution reverted: Sender has already been whitelisted"){
+          alert("Address already whitelist!");
+        }
+        if(e.error.message == "execution reverted: Whitelist closed"){
+          alert("Whitelist closed!");
+        }
+        if(e.error.message == "execution reverted: More addresses cant be added, limit reached")
+          alert("Whithelist limit reached!");      
       }
     } else {
       console.log("Please install MetaMask");
